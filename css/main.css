@@ -82,6 +82,18 @@ a {
     padding-bottom: 8px;
 }
 
+.site-navbar .nav-signup {
+    padding: 9px 16px;
+    border-radius: 20px;
+    background: #159447;
+    color: white;
+}
+
+.site-navbar .nav-signup:hover {
+    background: #0c7035;
+    color: white;
+}
+
 .whatsapp-btn,
 .primary-btn {
     background: #159447;
@@ -762,6 +774,12 @@ footer {
 
     .site-navbar a.active {
         border-bottom: 2px solid #65c542;
+    }
+
+    .site-navbar .nav-signup {
+        width: auto;
+        border: 0;
+        padding: 10px 18px;
     }
 
     .sidebar-close {
